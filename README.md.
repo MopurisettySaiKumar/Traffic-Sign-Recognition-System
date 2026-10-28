@@ -1,0 +1,71 @@
+# Traffic Sign Recognition System
+
+## Project Overview
+The Traffic Sign Recognition System is an AI-based computer vision mini-project designed to detect and classify traffic signs from road images and videos.
+
+This project demonstrates how artificial intelligence can assist drivers by recognizing traffic signs, supporting the development of Advanced Driver Assistance Systems (ADAS).
+
+## Technologies Used
+- Python
+- Flask
+- OpenCV
+- YOLO (You Only Look Once)
+- HTML, CSS and JavaScript
+- FFmpeg
+
+## Key Features
+- Upload road images for traffic sign detection
+- Upload road videos for traffic sign recognition
+- Display detected traffic signs
+- Show processed video with detection results
+- Web-based user interface
+
+## How to Run the Project
+
+1. Download or clone this GitHub repository.
+2. Open the project folder in VS Code.
+3. Create and activate a Python virtual environment.
+4. Install the required libraries:
+
+   `pip install -r requirements.txt`
+
+5. Ensure the trained model is available at `models/best.pt`.
+6. Install FFmpeg and ensure it is available in your system PATH.
+7. Start the Flask application:
+
+   `python app.py`
+
+8. Open the website in your browser:
+
+   `http://127.0.0.1:5000`
+
+## Project Team
+
+| Student Name | Roll Number |
+|---|---|
+| B. Mukesh | 252G5A0536 |
+| P. Sahith Kumar | 252G5A0522 |
+| M. Sai Kumar | 252G5A0516 |
+| G. Mohan Kumar | 252G5A0508 |
+| P. Teja | 242G1A05X6 |
+
+## Project Guide
+
+**Mr. B. R. Vamsi Krishna, M.Tech**
+
+## Institution
+
+Anantha Lakshmi Institute of Technology and Sciences (ALITS), Anantapuramu
+
+**Department:** Computer Science and Engineering
+
+**Academic Project:** B.Tech 3rd Year Mini-Project
+
+## Applications
+- Intelligent transportation systems
+- Driver assistance
+- Road safety research
+- Autonomous vehicle technology
+
+## Note
+This is an educational prototype intended for demonstration and research purposes, not a certified road-safety system.
